@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: red;
+    background-color: rgb(109, 109, 109);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -31,6 +31,10 @@
     display: flex;
     background-color: #FFF;
     align-items: center;
+}
+
+.navigation__logo-link{
+    background-color: #FFF;
 }
 
 .navigation__logo {
