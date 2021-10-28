@@ -1,0 +1,93 @@
+.testimonios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    margin: 4rem 0;
+}
+
+.testimonios__container{
+    display: inline-flex;
+    flex-direction: column;
+    height: 380px;
+    width: 370px;
+    color: #fff;
+    text-decoration: none;
+    padding: 2rem;
+    justify-content: end;
+}
+
+.testimonios__title{
+    font-size: 1.5rem;
+}
+
+.testimonios__datos{
+    display: inline-flex;
+    padding: 0.7rem 0;
+}
+
+.testimonios__datos p:not(:last-child){
+    padding-right: 0.8rem;
+}
+
+.testimonios__container:hover{
+    background-image:
+    linear-gradient(to top, rgba(126, 169, 27, 1), rgba(126, 169, 27, 1)) !important;
+}
+
+#testimonio1{
+    background-image:
+    linear-gradient(to top, rgba(126, 169, 27, 1), rgba(126, 169, 27, 0)),
+    url('../images/nene1.jpg');
+}
+
+#testimonio2{
+    background-image:
+    linear-gradient(to top, rgba(126, 169, 27, 1), rgba(126, 169, 27, 0)),
+    url('../images/nene2.jpg');
+}
+
+#testimonio3{
+    background-image:
+    linear-gradient(to top, rgba(126, 169, 27, 1), rgba(126, 169, 27, 0)),
+    url('../images/nene3.jpg');
+}
+
+#testimonio4{
+    background-image:
+    linear-gradient(to top, rgba(126, 169, 27, 1), rgba(126, 169, 27, 0)),
+    url('../images/nene4.jpg');
+}
+
+#testimonio5{
+    background-image:
+    linear-gradient(to top, rgba(126, 169, 27, 1), rgba(126, 169, 27, 0)),
+    url('../images/nene5.jpg');
+}
+
+#testimonio6{
+    background-image:
+    linear-gradient(to top, rgba(126, 169, 27, 1), rgba(126, 169, 27, 0)),
+    url('../images/nene6.jpg');
+}
+
+#testimonio7{
+    background-image:
+    linear-gradient(to top, rgba(126, 169, 27, 1), rgba(126, 169, 27, 0)),
+    url('../images/nene7.jpg');
+}
+
+#testimonio8{
+    background-image:
+    linear-gradient(to top, rgba(126, 169, 27, 1), rgba(126, 169, 27, 0)),
+    url('../images/nene8.jpg');
+}
+
+#testimonio9{
+    background-image:
+    linear-gradient(to top, rgba(126, 169, 27, 1), rgba(126, 169, 27, 0)),
+    url('../images/nene9.jpg');
+}
+
+
