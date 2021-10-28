@@ -1,0 +1,67 @@
+#img-pcpal {
+    position: relative;
+    width: 100%;
+    height: 742px;
+    background-image: url(../images/Mask\ Group.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 347px;
+    overflow-y: visible;
+}
+
+#contain-testimonio {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 902px;
+    background-color: white;
+    padding-top: 136px;
+    padding-left: 96px;
+    padding-right: 144px;
+    margin-bottom: 8rem;
+}
+
+#avatar-size {
+    height: 181px;
+    width: 181px;
+    background-image: url(../images/avatarTestimonio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#text-size {
+    position: relative;
+    width: 611px;
+    height: auto;
+}
+
+#degrade-blanco {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, transparent, white);
+    bottom: 0%;
+}
+
+#contain-testimonio #text-size button {
+    position: absolute;
+    width: 205px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid #7DA82B;
+    color: #7DA82B;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;    ;
+}
+
+#contain-testimonio #text-size button:hover {
+    background-color: #7DA82B;
+    color: white;
+    cursor: pointer;
+}

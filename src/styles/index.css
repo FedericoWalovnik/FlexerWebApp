@@ -1,0 +1,269 @@
+.ProximosEventos{
+    width: 100%;
+    margin: 8rem 0 8rem 40vh;
+}
+
+.ProximosEventos__slider{
+    display: flex;
+    overflow-x: auto;
+}
+
+.ProximosEventos__card{
+    margin: 1.5rem 1rem 0 0;
+    display: flex;
+    flex-shrink: 0;
+    width: 950px;
+    height: 350px;
+    background-color: #7DA82B;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.ProximosEventos__content{
+    padding: 3rem 1rem 3rem 3rem;
+    margin-right: 2rem;
+}
+
+.ProximosEventos__content h3{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.ProximosEventos__image{
+    flex: 0 0 45%;
+}
+
+.NosMotiva{
+    margin-bottom: 8rem;
+    position: relative;
+    height: 806px;
+    width: 100%;
+    background-image: url(../images/NosMotiva.png);
+    background-repeat: no-repeat;
+}
+
+.NosMotiva__title{
+    font-size: 72px;
+    color: #fff;
+    margin: 17rem 0 0 15rem;
+}
+
+.NosMotiva__content{
+    position: absolute;
+    right: 8vh;
+    top: 35%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 50%;
+}
+
+.NosMotiva__item{
+    width: 80%;
+    margin-bottom: 4rem;
+}
+
+.NosMotiva__subtitle{
+    color: #7DA82B;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.SobreNosotros {
+    width: 80%;
+    height: 90vh;
+    position: relative;
+    margin-bottom: 8rem;
+}
+
+.SobreNosotros__content{
+    display: flex;
+}
+
+.SobreNosotros__texto{
+    flex: 0 0 50%;
+    padding-right: 7rem;
+}
+
+.SobreNosotros__item{
+    margin-top: 2rem;
+}
+
+.SobreNosotros__subtitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.SobreNosotros__subtitle i{
+    color: #7DA82B;
+    margin-right: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.SobreNosotros__button{
+    display: inline-flex;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #7DA82B;
+    border: 2px solid;
+    padding: 1rem 4rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    padding: 0.4rem 3rem;
+    transition: background-color 0.4s;
+}
+
+.SobreNosotros__button:hover{
+    background-color: #7DA82B;
+    color: #fff;
+}
+
+.SobreNosotros__imagenes{
+    flex: 0 0 50%;    
+}
+
+.SobreNosotros__img1{
+    position: absolute;
+    bottom: 0;
+    height: 70vh;
+    width: 20vw;
+    z-index: 1;
+    object-fit:scale-down;
+}
+
+.SobreNosotros__img2{
+    position: absolute;
+    right: 0;
+    height: 60vh;
+    width: 25vw;
+    object-fit:scale-down;
+}
+
+.SobreNosotros__bloqueDato{
+    position: absolute;
+    display: inline-flex;
+    color: #fff;
+    background-color: #7DA82B;
+    padding: 1rem 1.7rem;
+}
+
+.SobreNosotros__number{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.SobreNosotros__bloqueDato1{
+    top: 100px;
+    right: 266px;
+    z-index: 2;
+}
+
+.SobreNosotros__bloqueDato2{
+    bottom: 173px;
+    right: 129px;
+    z-index: 2;
+}
+
+.Video{
+    width: 100%;
+    margin-bottom: 8rem;
+    position: relative;
+}
+
+.Video img{
+    width: 100%;
+}
+
+.Video i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 6rem;
+    color: #fff;
+    z-index: 2;
+}
+
+.Testimonios{
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+.Testimonios__title{
+    margin-left: 10vw;
+}
+
+.Testimonios__slider{
+    margin-top: 2rem;
+    display: flex;
+    overflow-x: auto;
+}
+
+.Testimonios__slider{
+    margin-top: 2rem;
+    display: flex;
+    overflow-x: auto;
+}
+
+.Testimonios__card:first-child{
+    transform: scale(0.9) translateX(-50%);
+}
+
+.Testimonios__card:last-child{
+    transform: scale(0.9) translateX(-61.5%);
+}
+
+.Testimonios__card{
+    display: flex;
+    color: #fff;
+    background-color: #7DA82B;
+    width: 50vw;
+    flex-shrink: 0;
+    transform: translateX(-50%);
+    border-radius: 8px;
+    position: relative;
+    margin-right: 1rem;
+}
+
+.Testimonios__card h3{
+    font-size: 1.5rem;
+    padding: 7.5rem 3rem 5rem 3rem;
+}
+
+.Testimonios__comillas{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    font-size: 10rem;
+    color: #FCDA14;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Testimonios a{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;    
+    font-weight: bold;
+}
+
+.ConfianNosotros{
+    width: 80%;
+    margin-bottom: 8rem;
+}
+
+.ConfianNosotros__sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.ConfianNosotros__item{
+    height: 4rem;
+}
