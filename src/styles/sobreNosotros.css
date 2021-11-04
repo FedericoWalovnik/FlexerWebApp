@@ -16,13 +16,13 @@ a {
     z-index: 1;
 }
 
-#contenedor-verde {
+/* #contenedor-verde {
     position: absolute;
     background-color: rgba(126, 171, 40, 75%);
     width: 100%;
     height: 644px;
     z-index: 2;
-}
+} */
 
 #contenedor-texto {
     display: flex;

@@ -56,13 +56,35 @@
     padding: 1rem 3rem 1rem 0;
 }
 
-.navegation__item {    
+
+.navegation__item {   
+    position: relative; 
     list-style: none;
     color: #000;
     font-size: 14px;
     align-items: center;
     text-decoration: none;
-    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.navegation__item:after{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FCDA14;
+    transition: all 0.3s;
+}
+
+.navegation__item:after{
+    right: 0px;
+    bottom: 0px;
+}
+
+.navegation__item:hover:after{
+    opacity: 1;
+    width: 100%;
 }
 
 .navegation__button {
@@ -73,6 +95,12 @@
     display: flex;
     align-items: center;
     border-radius: 5px;
+    transition: color 0.4s;
+    font-weight: bold;
+}
+
+.navegation__button:hover {
+    color: #000;
 }
 
 .header{
@@ -100,6 +128,7 @@
 }
 
 .header__content h1{
+    font-size: 2.5rem;
     color: #fff;
     margin-bottom: 1.5rem;
 }
